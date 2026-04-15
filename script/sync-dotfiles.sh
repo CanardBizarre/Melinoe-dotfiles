@@ -7,6 +7,7 @@ CONFIG_LINKS=(
 	alacritty
 	hypr
 	nvim
+	waybar
 	)
 
 
