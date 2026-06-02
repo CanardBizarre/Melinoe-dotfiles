@@ -3,3 +3,5 @@
 	name = CanardBizarre
 [pull]
 	rebase = true
+[credential]
+	helper = cache

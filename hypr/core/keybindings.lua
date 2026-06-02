@@ -39,6 +39,10 @@ hl.bind(var.mod .. " + SHIFT + underscore", hl.dsp.window.move({ workspace = 8 }
 hl.bind(var.mod .. " + SHIFT + ccedilla", hl.dsp.window.move({ workspace = 9 }))
 hl.bind(var.mod .. " + SHIFT + agrave", hl.dsp.window.move({ workspace = 10 }))
 
+hl.bind(var.mod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
+hl.bind(var.mod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
+
+
 -- Laptop multimedia keys for volume and LCD brightness
 hl.bind(
 	"XF86AudioRaiseVolume",
