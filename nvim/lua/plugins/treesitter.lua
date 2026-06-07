@@ -13,9 +13,8 @@ return {
         "python",
         "json",
       }
-      
-    require("nvim-treesitter").install(languages)
+
+      require("nvim-treesitter").install(languages)
     end,
   },
 }
-

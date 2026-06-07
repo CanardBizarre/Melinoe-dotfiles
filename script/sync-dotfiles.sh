@@ -1,6 +1,5 @@
 set -euo pipefail
 
-
 CONFIG_DIR="$HOME/.config"
 
 CONFIG_LINKS=(
@@ -8,6 +7,7 @@ CONFIG_LINKS=(
 	hypr
 	nvim
 	waybar
+	fastfetch
 	)
 
 

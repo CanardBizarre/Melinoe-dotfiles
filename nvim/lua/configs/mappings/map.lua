@@ -1,19 +1,18 @@
 local map = function(mode, lhs, rhs, opts)
-	if not lhs then 
-		return
-	end
+  if not lhs then
+    return
+  end
 
-	opts = opts or {}
+  opts = opts or {}
 
-	if type (lhs) == "table" then
-		for i = 1, #lhs do
-			vim.keymap.set(mode, lhs[i], opts)
-		end
-		return
-	end
+  if type(lhs) == "table" then
+    for i = 1, #lhs do
+      vim.keymap.set(mode, lhs[i], opts)
+    end
+    return
+  end
 
-	vim.keymap.set(mode,lhs,rhs,opts)
+  vim.keymap.set(mode, lhs, rhs, opts)
 end
 
 return map
-

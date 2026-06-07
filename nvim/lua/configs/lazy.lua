@@ -1,3 +1,3 @@
 return {
-	checker = {enabled = true},
+  checker = { enabled = true },
 }
