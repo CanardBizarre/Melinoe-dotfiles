@@ -10,4 +10,5 @@ hl.env("QT_AUTO_SCREEN_SCALE_FACTOR", "1")
 
 -- XE driver for Dell Arc 140V
 hl.env("WLR_RENDERER", "vulkan")
-hl.env("MESA_LOADER_DRIVER_OVERRIDE", "xe")
+hl.env("LIBVA_DRIVER_NAME", "iHD")
+hl.env("__GLX_VENDOR_LIBRARY_NAME", "mesa")
