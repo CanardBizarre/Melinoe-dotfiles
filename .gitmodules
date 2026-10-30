@@ -1,3 +1,6 @@
 [submodule "NVvv"]
 	path = NVvv
 	url = https://github.com/CanardBizarre/NVvv
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/CanardBizarre/NVvv
