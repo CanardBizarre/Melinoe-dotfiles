@@ -1,7 +1,10 @@
 [user]
-	email = huynhvuongtu@gmail.com
 	name = CanardBizarre
+	email = vhuynhperso@proton.me
+  signingKey = ~/.ssh/id_ed25519.pub
+
 [pull]
 	rebase = true
+
 [credential]
 	helper = cache
