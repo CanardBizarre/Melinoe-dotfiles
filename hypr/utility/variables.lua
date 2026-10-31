@@ -1,7 +1,7 @@
 local M = {}
 M.mod = "SUPER"
 
-M.browser = "firefox"
+M.browser = "zen-browser"
 M.terminal = "alacritty"
 M.fileManager = "yazi"
 M.menu = "rofi -show run"
